@@ -5,7 +5,6 @@ var ejs = require('ejs');
 var routes = require('./routes/routes');
 
 var app = express();
-
 app.set('port', 8080);
 var rootPath = path.join(__dirname, '../');
 app.set('views' , rootPath);
